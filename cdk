@@ -1,0 +1,4 @@
+# Create project directory
+
+mkdir cdk-workshop && cd cdk-workshop
+
