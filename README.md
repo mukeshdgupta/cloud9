@@ -56,3 +56,12 @@ sudo yum install -y npm
 npm install -g aws-cdk@1.30.0 --force
 npm install -g typescript@latest
 
+# docker --version
+
+# To Check docker deamon is running 
+docker ps -q
+
+# To Check kubectl version
+https://cdk-eks-devops.workshop.aws/en/20-preq/700-kubectl.html
+kubectl version --client
+
