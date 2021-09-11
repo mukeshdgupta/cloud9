@@ -5,4 +5,10 @@
 
 cdk init sample-app --language typescript
 
+Steps to resolve : kubectl get ns
 
+An error occurred (InvalidClientTokenId) when calling the AssumeRole operation: The security token included in the request is invalid
+
+1. Go to cloud9 settings--> aws settings --> desable aws managed temporary credentails
+2. Got to ec2--> select cloud9 instance --> go to Action--> security--> Modify IAM policy--> Assign eks admin access or create one
+3. update aws eks =  aws eks update-kubeconfig .......
