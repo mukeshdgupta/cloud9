@@ -1,4 +1,8 @@
 # Create project directory
+ mkdir cdk-workshop && cd cdk-workshop
+ 
+# To initiate sample app
 
-mkdir cdk-workshop && cd cdk-workshop
+cdk init sample-app --language typescript
+
 
