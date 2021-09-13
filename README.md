@@ -64,3 +64,9 @@ docker ps -q
 https://cdk-eks-devops.workshop.aws/en/20-preq/700-kubectl.html
 kubectl version --client
 
+# Docker Image Vulnerabilities and Trivy Image Scanner Guide 
+https://k21academy.com/docker-kubernetes/docker-image-vulnerabilities/
+
+curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.16.0
+$ trivy
+trivy image nginx:1.19.6
