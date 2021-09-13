@@ -15,11 +15,10 @@ Step-4: aws configure get default.region
 Step-6: cdk bootstrap aws://117134819170/us-west-1
 
 # Install kubectl
-
-sudo curl --silent --location -o /usr/local/bin/kubectl \
-   https://amazon-eks.s3.us-west-2.amazonaws.com/1.17.11/2020-09-18/bin/linux/amd64/kubectl
-
-sudo chmod +x /usr/local/bin/kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client
 
 # Update awscli
 
