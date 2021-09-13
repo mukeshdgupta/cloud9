@@ -70,3 +70,6 @@ https://k21academy.com/docker-kubernetes/docker-image-vulnerabilities/
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.16.0
 $ trivy
 trivy image nginx:1.19.6
+
+# Git Issue 
+https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/
