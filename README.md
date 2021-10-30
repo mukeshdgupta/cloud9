@@ -1,5 +1,4 @@
-# cloud9
-cloud9 environment setup for the development.
+# cloud9 environment setup for the development.
 
 Steps to increase size of cloud9 instance:
 
