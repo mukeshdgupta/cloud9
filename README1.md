@@ -9,7 +9,7 @@ STEP-3 : Create IAM role and assigned it to cloud9 environment.
 
 STEP-4: Use the GetCallerIdentity CLI command line to check that Cloud9 IDE is using the correct IAM Role
 
-aws sts get-caller-identity --query Arn | grep eksworkspace-admin
+aws sts get-caller-identity 
 
 # Installing kubectl ( https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html )
 
